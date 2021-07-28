@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #000;
+    --text-color: #fff;
+    --border-color: #fff;
+    --line-color: #fff;
+    --hover-color: #666;
+    --cell-color: 100px;
+    --mark-size: 90px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+}
+
+.board {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+}
