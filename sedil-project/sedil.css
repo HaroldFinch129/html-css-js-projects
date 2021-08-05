@@ -1,0 +1,34 @@
+header {
+    flex: auto;
+    display: block;
+}
+
+.head {
+    background-color: rgb(rgb(14, 14, 66), green, rgb(14, 14, 66));
+    color: rgb(red, green, rgb(201, 5, 5));
+}
+
+.header1 {
+    width: 20%;
+    height: 120px;
+    background-color: rgb(50, 52, 106, 1);
+    color: white;
+    justify-content: center;
+    margin: 10px;
+    padding: 0;
+    border: 1px solid rgb(14, 14, 66);
+    outline: rgb(14, 14, 66);
+    outline-width: thick;
+    outline-width: 10px;
+}
+
+#sedilpng {
+    width: 272px;
+    height: 272px;
+}
+
+.header2 {
+    background-color: rgb(14, 14, 66);
+    width: 80%;
+    color: white
+}
