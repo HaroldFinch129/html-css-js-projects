@@ -3,3 +3,49 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body {
+    text-align: center;
+    
+}
+
+
+.search {
+    background-color:#EEEEEE ;
+    margin: 5px 5%;
+    height: 70px;
+    
+
+   
+}
+.button {
+    padding: 1px 6px;
+}
+.link-container {
+    
+    height: 100px;
+    margin: 5px 5%;
+    
+    
+
+   
+    
+  
+   
+    
+    
+}
+.link {
+    float: left;
+    padding: 10px;
+    height: 100px;
+    
+    
+    
+
+    
+
+}
+.footer {
+    clear: both;
+    margin: 20px;
+}
