@@ -11,7 +11,7 @@
     width: auto;
     justify-content: space-between;
     display:flex;
-    margin: 10px 10px;
+    margin: 10px 15px;
 
     
    
@@ -90,7 +90,31 @@
     padding: 8px 12px;
 }
 /* *******header-end  ********** */
+
+
 /* *******main-start  ********** */
+.main-container {
+    border: 1px solid black;
+
+    justify-content: center;
+}
+
+.logo-container {
+    /* border: 1px solid black; */
+
+    text-align: center;
+    padding-top: 109px;
+}
+
+#logo {
+    /* border: 1px solid black; */
+
+    height:92px ;
+    width: 272px;
+    
+  
+}
+
 /* *******main-end    ********** */
 /* *******footer-start********** */
 /* *******footer-end********** */
