@@ -1,67 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Google | 2022</title>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: azure;
+        }
+        
+        #outer-container {
+            max-width: 500px;
+            min-width: min-content;
+            min-height: 500px;
+            /* background-color: rgba(0, 0, 0, 0.1); */
+            margin: 50px auto;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #web-page-container {
+            width: 100%;
+            min-height: 300px;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin: 50px auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            grid-gap: 10px;
+            border-radius: 10px;
+        }
+        
+        .card {
+            width: 100%;
+            height: 100px;
+            background-color: rgba(255, 0, 0, 0.623);
+            box-shadow: 2px 2px 5px 0 black;
+        }
+        
+        .card a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            padding-top: 30px;
+            text-decoration: none;
+            font-size: 2em;
+            text-transform: capitalize;
+            color: snow;
+        }
+        
+        .card a:hover {
+            background-color: thistle;
+            color: black;
+        }
+    </style>
 </head>
+
 <body>
-    <!-- header start -->
-    <div class="header-container">
-        <div class="header-links">
-            <div class="header-link-left"><a href="" class="text">About</a></div>
-            <div class="header-link-left"><a href="" class="text">Store</a></div>
-        </div>
-        <div class="header-links"></div>
-        <div class="header-links">
-            <div class="header-link-right"><a href="" class="text">Gmail</a></div>
-            <div class="header-link-right"><a href="" class="text">Images</a></div>
-            <div class="header-img"><img class="appsbutton" src="./assets/352018_apps_icon.png" alt="Google Apps"></div>
-            <div class="header-btn"><button class="header-button">Sign in</button></div>
-            <div class="header-links"></div>
-        </div>
-    </div>
-    <!-- header end -->
-    <!-- main start -->
-    <div class="main-container">
-        <div class="logo-container">
-            <div class="img-container"><img src="https://web.archive.org/web/20191130234759im_/https:/www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png " alt="Google Logo" id="logo"></div>
-        </div>
-        <div class="search-container">
-            <div class="searchbar-container">
-                <div class="search-img"><img id="büyütec" src="./assets/magnifying_glass.jpg "alt="büyütec"></div>
-                <div class="search-img"><input type="text" class="searchbar"></div>
-                <div class="search-img"><img id="mikrofon" src="./assets/voicelogo.png" alt="mikrofon"></div>
+    <div id="outer-container">
+        <div id="web-page-container">
+
+            <div class="card">
+                <a href="./project/calculator/calculator.html">calculator</a>
             </div>
-            <div class="btn-container">
-                <div class="button-container">
-                    <div class="button">
-                        <button class="btn">Google Search</button>
-                    </div>
-                    <div class="button">
-                        <button class="btn">I'm Feeling Lucky</button>
-                    </div>
-                </div>
+
+            <div class="card">
+                <a href="./project/Find-Number-Game-Project/find-number-game.html">Find-Number-Game</a>
             </div>
+
+            <div class="card">
+                <a href="./project/to-do-app project/to-do-app.html">to-do-app</a>
+            </div>
+            
+            <div class="card">
+                <a href="./css-homework">css-homework</a>
+            </div>
+            
+             <div class="card">
+                <a href="./cikolatali-kup-tarifi/index.html">cikolatali-kup-tarifi</a>
+            </div>
+            
+             <div class="card">
+                <a href="./google-1998">google-1998</a>
+            </div>
+
         </div>
     </div>
-    <!-- main end -->
-    <!-- footer start -->
-    <div class="footer-container">
-        <div class="footernav-container">
-            <div class="footer-link-container"><a href="" class="footer-link">Advertising</a></div>
-            <div class="footer-link-container"><a href="" class="footer-link">Business</a></div>
-            <div class="footer-link-container"><a href="" class="footer-link">How Search Works</a></div>
-        </div>
-        <div class="footernav-container">
-            <div class="footer-link-container"><a href="" class="footer-link">Privacy</a></div>
-            <div class="footer-link-container"><a href="" class="footer-link">Terms</a></div>
-            <div class="footer-link-container"><a href="" class="footer-link">Settings</a></div>
-        </div>
-    </div>
-    <!-- footer end -->
-    
 </body>
+
 </html>
