@@ -229,8 +229,10 @@
     align-items: center;
     justify-content: space-between;
     height: 40px;
-    margin-top:32%;
-    position: sticky;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    
    
 
 
