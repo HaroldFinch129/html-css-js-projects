@@ -148,3 +148,10 @@ button.ref:hover {
 .comment {
   margin-left: 20px;
 }
+.sidefooter-container {
+  justify-content: center;
+  text-align: center;
+  width: 19em;
+  vertical-align: middle;
+  margin: 0px;
+}
