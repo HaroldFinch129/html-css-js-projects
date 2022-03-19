@@ -1,6 +1,7 @@
 .navbarbg {
   height: 55px;
   background-color: white;
+  border:1px solid rgb(243,242,239);
 }
 
 input.searche {
@@ -8,6 +9,8 @@ input.searche {
   max-width: 500px;
   background-color: #eef3f8;
   border: 0;
+  /* margin-right: 120px; */
+  
 }
 
 input.searche::placeholder {
@@ -16,10 +19,15 @@ input.searche::placeholder {
   background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
   background-repeat: no-repeat;
   background-size: 7%;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .body {
   background-color: #f3f2ef;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
 }
 
 .menutext {
@@ -28,6 +36,9 @@ input.searche::placeholder {
   color: gray;
   margin-top: 5px;
   font-weight: lighter;
+  
+  
+  
 }
 
 .menutext:hover {
@@ -36,6 +47,9 @@ input.searche::placeholder {
 
 button.mediatext {
   color: #5f5f5f;
+  border: none;
+  padding: 5px;
+  margin: 5px;
 }
 
 button.mediatext:hover {
@@ -47,6 +61,7 @@ button.mediatext:hover {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   color: #5f5f5f;
+  background-color: #eef3f8;
 }
 
 i {
@@ -126,5 +141,10 @@ button.ref:hover {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 14px;
-  margin-left: 8px;
+  margin-left: 0px;
+  display: block;
+}
+
+.comment {
+  margin-left: 20px;
 }
