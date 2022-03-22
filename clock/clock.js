@@ -1,3 +1,8 @@
+let myName = prompt("Adınızı giriniz");
+
+let isim = document.querySelector("#myName");
+isim.innerHTML = myName;
+
 const weekday = [
   "Pazar",
   "Pazartesi",
